@@ -1,21 +1,16 @@
-#include "main.h"
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
+#include "putchar.h"
+/**
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
+ */
+int main(void)
+{
+	char c[] = "putchar";
+	int i;
 
-
-	int main(void)
+	for (i = 0; i < 9; i++)
 	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+		_putchar(c[i]);
+	}
 	_putchar('\n');
 	return (0);
-	}
