@@ -1,0 +1,1 @@
+[Lists.h](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0-print_listint.c/lists.h) is the header file containing all these function prototypes and the data structure listint_t.
