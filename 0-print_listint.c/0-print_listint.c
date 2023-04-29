@@ -1,32 +1,21 @@
-#include <stdio.h>
+#include "lists.h"
 
 /**
- * struct node - linked list node
- * @data: integer data for the node
- * @next: pointer to the next node
- */
-typedef struct node {
-    int data;
-    struct node* next;
-} node_t;
-
-/**
- * print_list - prints all the elements of a linked list
- * @head: pointer to the head of the linked list
+ * print_listint - prints all the elements of a linked list
+ * @h: linked list of type listint_t to print
  *
  * Return: number of nodes
  */
-size_t print_list(const node_t *head)
+size_t print_listint(const listint_t *h)
 {
-    size_t num = 0;
-    const node_t* current = head;
+	size_t x = 0;
 
-    while (current != NULL)
-    {
-        printf("%d\n", current->data);
-        num++;
-        current = current->next;
-    }
+	while (h)
+	{
+		printf("%d\n", h->n);
+		x++;
+		h = h->next;
+	}
 
-    return num;
+	return (x);
 }
