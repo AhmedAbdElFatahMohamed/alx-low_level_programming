@@ -1,1 +1,8 @@
-0x14-bit_manipulation
+- [main.h](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/main.h) is the header file containing all these function prototypes
+- [File 0-binary_to_uint.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/0-binary_to_uint.c) convert a binary number to an unsigned int
+- [File 1-print_binary.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/1-print_binary.c) print binary representation of a number
+- [File 2-get_bit.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/2-get_bit.c) get the value of a bit at a given index
+- [File 3-set_bit.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/3-set_bit.c) sets value of a bit to 1 at a given index
+- [File 4-clear_bit.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/4-clear_bit.c) set the value of a bit to 0 at a given index
+- [File 5-flip_bits.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/5-flip_bits.c) flip bits to convert one number to another number
+- [File 100-get_endianness.c](https://github.com/AhmedAbdElFatahMohamed/alx-low_level_programming/blob/main/0x14-bit_manipulation/100-get_endianness.c) check endianness
